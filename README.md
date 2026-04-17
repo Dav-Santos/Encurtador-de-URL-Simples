@@ -32,8 +32,3 @@ Exemplo de solicitação para encurtar uma URL:
 ```powershell
 Invoke-WebRequest -Uri "http://localhost:5000/shorten" -Method POST -Body '{"Url":"https://www.google.com"}' -ContentType "application/json"
 ```
-
-## Observações
-
-- O armazenamento é em memória; ao reiniciar o aplicativo, os dados são perdidos.
-- Para publicar no GitHub, crie um repositório remoto e adicione-o como `origin`.
